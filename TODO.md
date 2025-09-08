@@ -4,19 +4,16 @@
 Create a Next.js website for Arabic language learning with user authentication, course management, payment integration, and interactive learning features.
 
 ## Phase 1: Project Setup & Configuration
+See [Phase1.md](Phase1.md) for detailed step-by-step instructions.
 
 ### Initial Setup
 - [ ] Initialize Next.js project with TypeScript
 - [ ] Set up project directory structure
-- [ ] Configure ESLint and Prettier
 - [ ] Set up Tailwind CSS for styling
 - [ ] Configure environment variables
 - [ ] Set up Git with proper .gitignore
 
 ### Development Tools
-- [ ] Set up Husky for Git hooks (runs scripts on Git actions like pre-commit)
-- [ ] Configure lint-staged for pre-commit checks (runs linters only on staged files)
-
 
 ## Phase 2: Database & Backend
 
@@ -85,7 +82,6 @@ Create a Next.js website for Arabic language learning with user authentication, 
 
 ## Phase 5: Advanced Features
 
-
 ### Admin Features
 - [ ] Create course management interface
 - [ ] Develop lesson content editor
@@ -149,7 +145,9 @@ Create a Next.js website for Arabic language learning with user authentication, 
 - [ ] Prepare troubleshooting guides
 
 
+
 ## Additional Considerations
+
 
 ### Mobile Responsiveness
 - [ ] Ensure all components are mobile-friendly
