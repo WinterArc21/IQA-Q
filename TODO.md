@@ -43,17 +43,7 @@ See [Phase1.md](Phase1.md) for detailed step-by-step instructions.
 - [ ] Set up proper error handling and validation
 - [ ] Configure Row Level Security (RLS) policies
 
-## Phase 3: Payment Integration
-
-### Payment System
-- [ ] Integrate Stripe or PayPal for payments
-- [ ] Set up subscription plans (monthly, yearly)
-- [ ] Implement payment success/failure handling
-- [ ] Create payment history tracking
-- [ ] Set up webhook for payment notifications
-- [ ] Implement refund/cancellation functionality
-
-## Phase 4: Frontend Development
+## Phase 3: Frontend Development
 
 ### Core Pages
 - [ ] Create homepage with course listings
@@ -80,7 +70,8 @@ See [Phase1.md](Phase1.md) for detailed step-by-step instructions.
 - [ ] Implement progress indicators
 - [ ] Design user profile components
 
-## Phase 5: Advanced Features
+## Phase 4: Advanced Features
+
 
 ### Admin Features
 - [ ] Create course management interface
@@ -90,7 +81,7 @@ See [Phase1.md](Phase1.md) for detailed step-by-step instructions.
 - [ ] Add user management dashboard
 - [ ] Implement analytics dashboard
 
-## Phase 6: Testing & Quality Assurance
+## Phase 5: Testing & Quality Assurance
 
 ### Testing
 - [ ] Write unit tests for components
@@ -107,6 +98,16 @@ See [Phase1.md](Phase1.md) for detailed step-by-step instructions.
 - [ ] Implement rate limiting
 - [ ] Set up security headers
 - [ ] Conduct security audit
+
+## Phase 6: Payment Integration
+
+### Payment System
+- [ ] Integrate Stripe or PayPal for payments
+- [ ] Set up subscription plans (monthly, yearly)
+- [ ] Implement payment success/failure handling
+- [ ] Create payment history tracking
+- [ ] Set up webhook for payment notifications
+- [ ] Implement refund/cancellation functionality
 
 ## Phase 7: Deployment & Monitoring
 
@@ -143,8 +144,6 @@ See [Phase1.md](Phase1.md) for detailed step-by-step instructions.
 - [ ] Create setup and deployment guides
 - [ ] Document codebase architecture
 - [ ] Prepare troubleshooting guides
-
-
 
 ## Additional Considerations
 
