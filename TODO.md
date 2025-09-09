@@ -7,11 +7,11 @@ Create a Next.js website for Arabic language learning with user authentication, 
 See [Phase1.md](Phase1.md) for detailed step-by-step instructions.
 
 ### Initial Setup
-- [ ] Initialize Next.js project with TypeScript
-- [ ] Set up project directory structure
-- [ ] Set up Tailwind CSS for styling
-- [ ] Configure environment variables
-- [ ] Set up Git with proper .gitignore
+- [x] Initialize Next.js project with TypeScript
+- [x] Set up project directory structure
+- [x] Set up Tailwind CSS for styling
+- [x] Configure environment variables
+- [x] Set up Git with proper .gitignore
 
 ### Development Tools
 
