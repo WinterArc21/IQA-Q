@@ -1,4 +1,4 @@
-# Arabic Learning Next.js Website - TODO List
+﻿# Arabic Learning Next.js Website - TODO List
 
 ## Project Overview
 Create a Next.js website for Arabic language learning with user authentication, course management, payment integration, and interactive learning features.
@@ -20,11 +20,16 @@ See [Phase1.md](Phase1.md) for detailed step-by-step instructions.
 ### Database Design
 - [ ] Design database schema for users, courses, lessons, vocabulary, quizzes
 - [ ] Set up Supabase database through Supabase MCP server
+- [x] Create Supabase client files (`lib/supabaseClient.ts`, `lib/supabaseServer.ts`)
+- [x] Add Supabase env vars to `.env.local` (local only)
+- [x] Install `@supabase/supabase-js`
 - [ ] Configure Supabase authentication
 - [ ] Set up Supabase storage for lesson materials
 - [ ] Create database tables and relationships
 - [ ] Set up database seeding for initial data
 - [ ] Configure Supabase Realtime for live updates
+
+**Important:** `SUPABASE_SERVICE_ROLE_KEY` must never be exposed to browser code or committed to source control.
 
 ### Authentication System
 - [ ] Implement user registration with Supabase Auth
