@@ -1,3 +1,4 @@
+```markdown
 # Phase 1: Project Setup & Configuration - Detailed Steps
 
 ## Initial Setup
@@ -63,3 +64,5 @@
 - Set up initial commit with all files
 - Create a comprehensive first commit message
 - Verify Git history is clean
+
+```

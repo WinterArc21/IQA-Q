@@ -1,4 +1,5 @@
-﻿# Arabic Learning Next.js Website - TODO List
+```markdown
+# Arabic Learning Next.js Website - TODO List
 
 ## Project Overview
 Create a Next.js website for Arabic language learning with user authentication, course management, payment integration, and interactive learning features.
@@ -161,3 +162,5 @@ See [Phase1.md](Phase1.md) for detailed step-by-step instructions.
 - [ ] Optimize audio playback for mobile
 - [ ] Create PWA functionality for offline access
 - [ ] Test on various mobile devices and browsers
+
+```

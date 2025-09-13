@@ -1,3 +1,4 @@
+```markdown
 # Phase 2: Database & Backend - Detailed Steps
 
 ## Overview
@@ -196,3 +197,5 @@ In this phase, we'll set up the database and backend infrastructure for our Arab
   - Anonymous users can only browse public course information
 - Test policies with different user roles
 - Document security policies in `/docs/security.md`
+
+```
