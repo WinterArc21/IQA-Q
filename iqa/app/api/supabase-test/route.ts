@@ -1,12 +1,15 @@
-// app/api/supabase-test/route.ts
 import { NextResponse } from 'next/server'
 import { supabaseAdmin } from '@/lib/supabaseServer'
 
-export async function GET(request: Request) {
+export async function GET() {
   const { data, error } = await supabaseAdmin
     .from('courses')
-    .select('id, title')
-    .limit(1)
+    .select('*')
+    .limit(5)
 
-  return NextResponse.json({ data, error })
+  if (error) {
+    return NextResponse.json({ ok: false, error })
+  }
+
+  return NextResponse.json({ ok: true, data })
 }
