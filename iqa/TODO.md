@@ -18,18 +18,20 @@ See [Phase1.md](Phase1.md) for detailed step-by-step instructions.
 ## Phase 2: Database & Backend
 
 ### Database Design
-- [ ] Design database schema for users, courses, lessons, vocabulary, quizzes
-- [ ] Set up Supabase database through Supabase MCP server
+-  [x] Create database tables and relationships (created: `courses`, `profiles`)
 - [x] Create Supabase client files (`lib/supabaseClient.ts`, `lib/supabaseServer.ts`)
 - [x] Add Supabase env vars to `.env.local` (local only)
 - [x] Install `@supabase/supabase-js`
 - [ ] Configure Supabase authentication
 - [ ] Set up Supabase storage for lesson materials
-- [ ] Create database tables and relationships
 - [ ] Set up database seeding for initial data
 - [ ] Configure Supabase Realtime for live updates
 
 **Important:** `SUPABASE_SERVICE_ROLE_KEY` must never be exposed to browser code or committed to source control.
+
+### Current DB State (added)
+- `courses` table created with columns: `id` (PK, integer, auto-increment), `title` (text, NOT NULL), `description` (text, NULL), `price` (numeric, NOT NULL, default 0.00), `created_at` (timestamptz, default CURRENT_TIMESTAMP), `updated_at` (timestamptz, default CURRENT_TIMESTAMP).
+- `profiles` table created with columns: `user_id` (PK, uuid, FK -> `auth.users.id`), `email` (text, NOT NULL, UNIQUE), `name` (text, NULL), `role` (text, default 'student', check constraint), `created_at` (timestamptz, default now()).
 
 ### Authentication System
 - [ ] Implement user registration with Supabase Auth
